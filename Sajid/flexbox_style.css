@@ -1,0 +1,21 @@
+div{
+   min-width: 200px;
+    height: 200px;
+}
+.one{
+    background: pink;
+    flex: 1;
+}
+.two{
+    background: lightgreen;
+    flex: 1;
+}
+.three{
+    background: orange;
+    flex: 1;
+}
+.flex-boxes{
+    display: flex;
+    flex-wrap: wrap;
+
+}

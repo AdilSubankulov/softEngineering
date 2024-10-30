@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    width: 95%;
+    height: 90%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4900B7;
+    padding: 40px;
+}
+.welText {
+    color: white;
+    font-family: "Port Lligat Slab", serif;
+    font-size: 90px;
+    letter-spacing: -0.01em;
+    padding-bottom: 30px;
+}
+.right {
+    flex: 1.5;
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input::placeholder{
+    padding: 3%;
+    font-family: "Port Lligat Slab", serif;
+    color: #494F57;
+    font-weight: 500;
+}
+.registerText {
+    text-align: center;
+    font-family: "Port Lligat Slab", serif;
+    font-size: 60px;
+    color: #494F57;
+    font-weight: 400;
+    line-height: 128.52px;
+    letter-spacing: -0.03em;
+    text-align:center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+    max-width: 450px;
+    background-color: white;
+    border-radius: 40px 0 0 40px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    align-self: flex-end;
+    margin-bottom: 10px;
+    width: 100%; /* Делаем поля растягиваемыми */
+    max-width: 350px;
+}
+
+.input-field {
+    width: 90%;
+    height: 50px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+}
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* Выровнять кнопку справа */
+    width: 100%;
+    max-width: 320px;
+}
+.submit-btn {
+    font-family: "Port Lligat Slab", serif;
+    width: 50%;
+    padding: 15px;
+    background-color: #4900B7;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 10px; /* Отступ сверху для кнопки */
+    max-width: 300px;
+}
+.submit-btn:hover {
+    background-color: #3b0071;
+}
+.button-login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 100%;
+    padding: 30px;
+}
+.submit-lbtn{
+    font-family: "Port Lligat Slab", serif;
+    width: 25%;
+    padding: 15px;
+    background-color: #ffffff;
+    color: #4900B7;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    max-width: 300px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+}
